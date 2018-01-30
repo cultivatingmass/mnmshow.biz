@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon.jpg"/>
+  <title>Maria Montiel</title>
+  
+  <!--build:css css/styles.min.css-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--endbuild-->
+  <script src="https://use.fontawesome.com/e65fc10c49.js"></script>
+  
+ 
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+      <header class="container-fluid sdm-bg" id="home">
+        <div class="row">
+         
+          <!-- main menu -->
+          <ul class="nav nav-pills menu-center margin-top-30 scroll-nav">
+            <li role="presentation" class="active"><a href="#home"><i class="fa fa-home"></i></a></li>
+            <li role="presentation"><a href="#portfolio">Portfolio</a></li>
+            <li role="presentation"><a href="#about_me">About</a></li>
+            <li role="presentation"><a href="#expertness">What I Love to Do</a></li>
+            <li role="presentation"><a href="#contact_me">Contact</a></li>
+          </ul>
+          <!-- main menu end -->
+          <img src="images/me.jpg" class="margin-top-76 center-block img-circle profile_picture" alt="profile picture">
+          <h1 class="text-capitalize text-center text-dark">Maria Montiel</h1>
+          <h3 class="text-uppercase text-center margin-bottom-55">Web Designer and Video Editor</h3>
+
+          <div class="text-center margin-bottom-135 margin-top-55">
+            <ul class="social-networks spin-icon">
+              <li><a href="https://linkedin.com/in/maria-montiel/" target="_blank" class="icon-linkedin">LinkedIn</a></li>
+              <li><a href="https://www.behance.net/mariamonti1beb" target="_blank" class="icon-pinterest">Behance</a></li>
+              <li><a href="https://instagram.com" class="icon-instagram">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <section class="container position-relative" id="portfolio">
+        <div class="col-sm-12">
+            <h3 id="works" class="text-center">Recent Works</h3>
+          </div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 position-absolute">
+            <div class="text-center filter-btns">
+              <!-- filter btn -->
+              <ul class="nav nav-pills">
+                <li role="presentation">
+                  <a href="javascript:void(0)" id="all" class="btn" data-mixitup-control data-filter="all">All</a>
+                </li>
+                <li role="presentation">
+                  <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".web">Web</a>
+                </li>
+                <li role="presentation">
+                  <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".graphic">Graphic</a>
+                </li>
+                <li role="presentation">
+                  <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".motion">Motion</a>
+                </li>
+                <li role="presentation">
+                  <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".video">Video</a>
+                </li>
+              </ul>
+              <!-- filter btn end-->
+            </div>
+            <!-- mixitup container -->
+            <div class="row" id="mix-wrapper">
+              <div id="effect-5">
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+                  <figure>
+                    <img src="images/portfolio/printpromo.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal">
+                        <h3>Smart Source Printing and Promotions</h3>
+                        <hr class="original">                      
+                        <p>Worpress , Web Development</p>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="2">
+                  <figure>
+                    <img src="images/portfolio/carmen.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal2">
+                        <h3>Carmen's Gifts and Flower Shop</h3>
+                        <hr class="original">
+                        <p>Web Development , Javascript , Bootstrap</p>                      
+                      </a>                      
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target graphic" data-order="3">
+                  <figure>
+                    <img src="images/portfolio/ctva.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal3">
+                        <h3>Cinema and Television Arts - Annual Showcase</h3>
+                        <hr class="original"> 
+                        <p>Concept Design, Branding</p>                     
+                      </a>                      
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target graphic" data-order="4">
+                  <figure target="_blank">
+                    <img src="images/portfolio/sheepboy.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal4">
+                        <h3>Provost Colloquium - Design Concept</h3>
+                        <hr class="original">
+                        <p>Concept , Photography</p>                      
+                      </a>                      
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target motion" data-order="5">
+                  <figure>
+                    <img src="images/portfolio/moji.jpg" alt="">
+                    <figcaption>
+                      <a href="#" class="porto" data-toggle="modal" data-target="#myModal5">
+                        <h3>Messaging App - Animation</h3>
+                        <hr class="original"> 
+                        <p>After Effects</p>                     
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target motion" data-order="6">
+                  <figure>
+                    <img src="images/portfolio/titles.jpg" alt="">
+                    <figcaption>
+                     <a href="#" class="porto" data-toggle="modal" data-target="#myModal6">
+                        <h3>Call Out Titles</h3>
+                        <hr class="original"> 
+                        <p>After Effects</p>                     
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target video" data-order="7">
+                  <figure>
+                    <img src="images/portfolio/stoney.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal7">
+                        <h3>Stoney Point Park, Ca</h3>
+                        <hr class="original"> 
+                        <p>Adobe Premiere Pro , 360 video editing</p>                     
+                      </a>                      
+                    </figcaption>
+                  </figure>
+              </div>
+
+              <div class="col-md-4 col-sm-6 col-xs-6 mix-target video" data-order="8">
+                  <figure>
+                    <img src="images/portfolio/fmm.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal8">
+                        <h3>Friday Morning Matadors</h3>
+                        <hr class="original"> 
+                        <p>Adobe Premiere Pro , video production, video editing</p>                     
+                      </a>                      
+                    </figcaption>
+                  </figure>
+              </div>
+
+              <div class="col-md-4 col-sm-6 col-xs-6 mix-target motion" data-order="9">
+                  <figure>
+                    <img src="images/portfolio/kinetic.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal9">
+                        <h3>The Noisy Eater (lyrics)</h3>
+                        <hr class="original"> 
+                        <p>After Effects, Kinetic typography</p>                     
+                      </a>                      
+                    </figcaption>
+                  </figure>
+              </div>
+
+              </div>
+            </div>
+            
+              </div>
+            </div>
+            <!-- mixitup container end -->
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container-fluid sdm-bg-gradient1" id="about_me">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-1 col-sm-12">
+            <div class="row">
+              <div class="col-md-6 col-sm-4 col-xs-12 about-margin">
+                <h3><i class="fa fa-user"></i>About me</h3>
+                <div class="block">
+                  <p>
+                    Hi, my name is Maria. I am a passionate Visual Desiner based in Los Angeles. I like to use my computer to create websites, print designs, and motion graphics. I also enjoy editing photographs and videos.
+                  </p>
+                  <p>
+                    Design became a thrill for me when I finally discovered it was my passion at 19 years old. Since then, I've been aiming to expand my skill sets and strengthen my creative muscles everyday.  
+                  </p>                  
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4 col-xs-6">
+                <h3><i class="fa fa-building"></i>Work history</h3>
+                <div class="block">
+                  <h4>Freelance Designer</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-building"></i> Viscom Center</li>
+                    <li><i class="fa fa-clock-o"></i> 2017-Present</li>
+                  </ul>
+                </div> 
+                <div class="block">
+                  <h4>Web Project Management</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-building"></i> Viscom Center</li>
+                    <li><i class="fa fa-clock-o"></i> 2017</li>
+                  </ul>
+                </div> 
+              </div>
+                
+              <div class="col-md-3 col-sm-4 col-xs-6">
+                <h3><i class="fa fa-graduation-cap"></i>Education</h3>
+                <div class="block">
+                  <h4>B.A. Cinema and Television Arts</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-book"></i> Cal State Northridge</li>
+                    <li><i class="fa fa-clock-o"></i> 2014-2018</li>
+                  </ul>
+                </div> 
+                <div class="block">
+                  <h4>Multimedia Production</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-book"></i> Cal State Northridge</li>
+                    <li><i class="fa fa-clock-o"></i> 2017-2018</li>
+                  </ul>
+                </div> 
+                <div class="block">
+                  <h4>UX/UI Design</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-book"></i> Cal State Northridge</li>
+                    <li><i class="fa fa-clock-o"></i> 2017-Present</li>
+                  </ul>
+                </div> 
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container" id="expertness">
+        <div class="row">
+          <div class="overlay"></div>
+          <div class="col-sm-12">
+            <h3 class="text-center"><i class="fa fa-bookmark"></i>What I Love to Do</h3>
+          </div>
+        </div>
+        <section class="container">
+          <div class="row">
+            <div class="col-sm-3 col-xs-6">
+              <div class="block">
+                <i class="fa fa-code fa-3x"></i>
+                <h4 class="text-uppercase">Web Design</h4>
+                <p>
+                 Before I start coding any website, I start out with pen and paper. I figure the information hierarchy of my layout based on importance. I do this by dividing sections of content and then I figure out where and how to display each section in the webpage. I then continue with interactivity, colors, and typography.   
+                </p>
+              </div> 
+            </div>
+            <div class="col-sm-3 col-xs-6">
+              <div class="block">
+                <i class="fa fa-fast-forward fa-3x"></i>
+                <h4 class="text-uppercase">Motion Graphics</h4>
+                <p>
+                  I work on Adobe After Effects for text and image animation, rotoscoping, motion tracking, and visual fx. I start out with a vision in my mind, and then I persist with it until I get my piece to move just right. 
+                </p>
+              </div> 
+            </div>
+            <div class="col-sm-3 col-xs-6">
+              <div class="block">
+                <i class="fa fa-camera fa-3x"></i>
+                <h4 class="text-uppercase">Photography</h4>
+                <p>
+                 I like to incorporate my own photographs into my projects whenever possible. I use a digital SLR for my professional photographs. I have shot and edited product photographs for my clients before, and I am happy to do so again.
+                </p>
+              </div> 
+            </div>
+            <div class="col-sm-3 col-xs-6">
+              <div class="block">
+                <i class="fa fa-video-camera fa-3x"></i>
+                <h4 class="text-uppercase">Video Production</h4>
+                <p>
+                  I am trained in narrative video production. I am capable of conceptualizing and managing a project in all its stages: pre-production (storyboards and scripts), production (video shooting and audio recording, lighting), to post-production (editing and creating graphics and effects).
+                </p>
+              </div> 
+            </div>
+            
+          </div>
+        </section>
+      </section>
+      
+      <section class="container-fluid sdm-bg-gradient2" id="contact_me">
+        <div class="row">
+          <div class="col-sm-12 text-center text-capitalize">
+            <h3>Get in touch with me</h3>
+            <hr class="original">
+          </div>
+        </div>
+        <div class="row">
+          <section class="col-sm-10 col-sm-offset-1">
+
+            <div class="row text-center">
+              <div class="col-sm-12 col-xs-12">
+                <div class="block">
+                  <i class="fa fa-envelope fa-2x"></i>
+                  <h4 class="text-uppercase">Email</h4>
+                  <ul class="list-unstyled">
+                    <li>montma20@gmail.com</li>
+                  </ul>
+                </div> 
+              </div>
+              
+              
+            </div>
+            
+
+          <div class="text-center row">
+            <div class="col-sm-12">
+              <ul class="social-networks2 spin-icon margin-top-30">
+                <li><a href="https://linkedin.com/in/maria-montiel/" target="_blank" class="icon-linkedin">LinkedIn</a></li>
+                <li><a href="https://www.behance.net/mariamonti1beb" target="_blank" class="icon-pinterest">Behance</a></li>
+                <li><a href="https://vimeo.com/mariamontiel" target="_blank" class="icon-instagram">Vimeo</a></li>
+              </ul>
+
+              <p class="text-center margin-top-100">
+               <br><hr class="style13">&copy Copyright 2018 - Maria Montiel<br>
+             </p>
+           </div>
+         </div>
+       </section>
+     </div>
+   </section>
+
+   <!-- Modal -->
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Smart Source Printing and Promotions Company</h4>
+        </div>
+        <div class="modal-body">
+          <a class="link" href="http://smartsourceprintandpromo.com/" target="_blank"><p class="link">View Website</p></a>
+          <img src="images/portfolio/printpromo.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+  <!-- Modal2 -->
+   <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Carmen's Gifts and Flower Shop</h4>
+        </div>
+        <div class="modal-body">
+          <a class="link" href="http://www.multimediashowcase.net/2017/websites/Carmens-Flowers/" target="_blank"><p class="link">
+            View Website
+          </p></a>
+          <img src="images/portfolio/carmen.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+   <!-- Modal3 -->
+   <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Annual Showcase - Cinema and Television Arts</h4>
+        </div>
+        <div class="modal-body">
+          <p></p>
+          <img src="images/portfolio/ctva.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+  <!-- Modal4 -->
+   <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">CSUN Provost Colloquium</h4>
+        </div>
+        <div class="modal-body">
+          <p></p>
+          <img src="images/portfolio/sheepboy.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+<!-- Modal5 -->
+   <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Messaging App - Animation</h4>
+        </div>
+        <div class="modal-body">
+          <img src="images/portfolio/animation.gif" class="img-responsive" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Modal end -->
+
+<!-- Modal6 -->
+   <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Call Out Titles</h4>
+        </div>
+        <div class="modal-body">
+           <iframe width="100%" height="320" src="https://www.youtube.com/embed/yCftdSxR44w"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+  <!-- Modal7 -->
+   <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Stoney Point Park, CA</h4>
+        </div>
+        <div class="modal-body">
+          <iframe width="100%" height="320" src="https://www.youtube.com/embed/j9k8TsL4-FQ"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+    <!-- Modal8 -->
+   <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Friday Morning Matadors</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            <iframe width="100%" height="360" src="https://www.youtube.com/embed/bE0YFXhBR8g"></iframe>
+          </p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+  <!-- Modal9 -->
+   <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">The Noisy Eater by The Avalanches</h4>
+        </div>
+        <div class="modal-body">
+          <iframe id="player" src="http://www.youtube.com/embed/OywHgs7U_-c?rel=0&wmode=Opaque&enablejsapi=1" frameborder="0" width="100%" height="320"></iframe>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+  <!--build:js js/main.min.js -->
+
+  <script src="js/modernizr.js"></script>
+  <script src="https://use.fontawesome.com/43908a7bf0.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
+  <!-- Remove color switcher -->
+  <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+  </script>
+  <!-- Remove Color swither end -->
+</body>
+</html>
